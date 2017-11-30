@@ -22,5 +22,8 @@ class Translator
   end
 end
 
+tr = Translator.new
 txt = ARGV[0] || '藪から棒'
-puts Translator.new.convert(txt)
+puts txt
+puts tr.convert(txt)
+puts tr.translate(txt)
