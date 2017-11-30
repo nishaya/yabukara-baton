@@ -24,6 +24,8 @@ end
 
 tr = Translator.new
 txt = ARGV[0] || '藪から棒'
-puts txt
-puts tr.convert(txt)
-puts tr.translate(txt)
+puts <<OUT
+#{txt}
+#{tr.convert(txt)}
+#{tr.translate(txt)}
+OUT

@@ -18,9 +18,11 @@ https://support.google.com/cloud/answer/6158862
 
 ```
 $ bundle exec ruby stick.rb
+藪から棒
 藪からBaton
-$ bundle exec ruby stick.rb 犬も歩けば棒に当たる
-dogも歩けば棒に当たる
+From a busy stick
 $ bundle exec ruby stick.rb 糠に釘
-糠にnail
+糠に釘
+branに釘
+Nail in bran
 ```
